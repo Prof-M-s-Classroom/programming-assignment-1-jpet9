@@ -28,5 +28,9 @@ int main() {
     cout << "\nAfter Removing Venus: \n";
     voyagerRoute.print();
 
+    voyagerRoute.setWaypoint(0, mars);
+    cout << "\nAfter setting Earth: \n";
+    voyagerRoute.print();
+
     return 0;
 }
